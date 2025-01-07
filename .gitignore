@@ -1,0 +1,12 @@
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore environment variables file
+.env
+
+# Ignore build/production directory
+build/
+
+Thumbs.db      # For Windows
