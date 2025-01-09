@@ -12,7 +12,12 @@ import React from 'react';
 
 export const SkateAppEmail = () => (
   <Html>
-    <Head></Head>
+    <Head>
+    <Link
+    rel="stylesheet" 
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500;700&display=swap" 
+    ></Link> 
+    </Head>
     <Body>
     <div
         style={{
@@ -33,11 +38,13 @@ export const SkateAppEmail = () => (
             height: '24px',
             borderTop: '7px',
             borderLeft: '301px',
+            transform: 'rotate(0deg)', 
             color: '#FFFFFF', 
-            fontFamily: 'Roboto', 
+            fontFamily: 'Roboto, sans-serif', 
             fontWeight: 600,
             fontSize: '14px', 
-            lineHeight: '24px'
+            lineHeight: '24px',
+            whiteSpace: 'nowrap',
           }}
         >
           Reset Your Password
@@ -63,7 +70,7 @@ export const SkateAppEmail = () => (
           position: 'absolute', 
           top: '403px', 
           left: '307px', 
-          fontFamily: 'Roboto', 
+          fontFamily: 'Roboto, sans-serif', 
           fontWeight: 700, 
           fontSize: '12px', 
           lineHeight: '24px', 
@@ -76,24 +83,26 @@ export const SkateAppEmail = () => (
       </Text>
 
       <Text
-      style={{
-        width: '219.57px',
-        height: '49.57px',
-        top: '433px',
-        left: '258px',
-        padding: '2.78px',
-        gap: '11.52px',
-        position: 'absolute',
-        fontFamily: 'Roboto',
-        fontWeight: 800,
-        fontSize: '32.25px',
-        lineHeight: '43.76px',
-        alignItems: 'Center',
-        color: '#343131',
-      }}
-      >
-        Don't be panic!
-      </Text>
+  style={{
+    width: '214px', 
+    height: '44px', 
+    position: 'absolute', 
+    top: '433px', 
+    left: '258px', 
+    fontFamily: 'Roboto, sans-serif',
+    fontWeight: 799.9999,
+    fontSize: '32.25px',
+    lineHeight: '44px', 
+    color: '#343131',
+    whiteSpace: 'nowrap', 
+    textAlign: 'center', 
+    display: 'flex', 
+    justifyContent: 'center',
+    alignItems: 'center', 
+  }}
+>
+  Don't be panic!
+</Text>
 
       <div
       style={{
@@ -103,7 +112,7 @@ export const SkateAppEmail = () => (
         top: '500px',
         left: '118px',
         transform: 'rotate(0deg)', 
-        font: 'Roboto',
+        fontFamily: 'Roboto, sans-serif',
         fontWeight: 400,
         fontSize: '14px',
         lineHeight: '24px',
@@ -148,7 +157,7 @@ export const SkateAppEmail = () => (
     >
       <div
         style={{
-          fontFamily: 'Poppins',
+          fontFamily: 'Poppins, sans-serif',
           fontWeight: 700,
           fontSize: '16px',
           lineHeight: '26px',
@@ -160,7 +169,125 @@ export const SkateAppEmail = () => (
         Reset My Password
       </div>
       </div>
-    </Body>
+
+      <Text
+      style={{
+        width: '500px',
+        height: '24px',
+        top: '674px',
+        left: '118px',
+        transform: 'rotate(0deg)', 
+        fontFamily: 'Roboto, sans-serif',
+        fontWeight: 400,
+        fontSize: '14px',
+        lineHeight: '24px',
+        letterSpacing: '2%',
+        alignItems: 'center',
+        position: 'absolute',
+        textAlign: 'center',
+      }}
+      >
+        Or use the link below to get started
+      </Text>
+      <div
+       onClick={() => window.location.href = 'https://mycollegelease.com/request/resetpassword/too'}
+       style={{
+         width: '500px',
+         height: '24px',
+         position: 'absolute',
+         top: '720px',
+         left: '118px',
+         transform: 'rotate(0deg)', 
+         fontFamily: 'Roboto, sans-serif',
+         fontWeight: 400,
+         fontSize: '18px',
+         lineHeight: '24px',
+         letterSpacing: '2%',
+         color: '#5378FC', 
+         textAlign: 'center',
+         cursor: 'pointer', 
+         backgroundColor: 'transparent', 
+         border: 'none',
+       }}
+      >
+        https://mycollegelease.com/request/resetpassword/too
+      </div>
+
+      <div
+      style={{
+        width: '653px',
+        height: '312px',
+        position: 'absolute',
+        top: '783px',
+        left: '42px',
+        paddingTop: '24px',
+        paddingRight: '24px',
+        paddingBottom: '32px',
+        paddingLeft: '24px',
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        gap: '32px',
+        boxSizing: 'border-box',
+        backgroundColor: '#F5F5FB',
+        boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)', 
+        zIndex: '10',
+      }}
+      >
+        <div
+        style={{
+          width: '330.12px',
+          transform: 'rotate(0deg)', 
+          fontFamily: 'Roboto, sans-serif',
+          fontWeight: 700,
+          fontSize: '12px',
+          lineHeight: '24px',
+          letterSpacing: '2%',
+          textAlign: 'center',
+          color: '#190E64',
+        }}
+      >
+        GET TROUBLE
+      </div>
+
+      <div
+    style={{
+    width: '221px',
+    fontFamily: 'Poppins, sans-serif',
+    fontWeight: 700,
+    fontSize: '29.64px',
+    lineHeight: '40.22px',
+    textAlign: 'center',
+    display: 'flex',  
+    color: '#343131',
+    }}
+  >
+    Any Question?
+  </div>
+
+  <div
+  style={{
+    width: '605px',
+    transform: 'rotate(0deg)', 
+    fontFamily: 'Roboto, sans-serif',
+    fontWeight: 400,
+    fontSize: '14px',
+    lineHeight: '24px',
+    letterSpacing: '2%',
+    color: '#343131',
+  }}
+  >
+   Please let us know if we can assist you by replying to this email or emailing help@mycollegelease.com.
+   <span style={{ display: 'block', marginTop: '20px' }}>If you didn't request a password reset, we recommend you get in touch with our support team to secure your account.</span>
+   <span style={{ display: 'block', marginTop: '5px' }}>
+   <span style={{ color: '#ED4944' }}>Call us at +1(213)555-3893</span> or write to us at 
+   <span style={{ color: '#ED4944' }}> help@skateappteam.com</span>
+   </span>
+   </div>
+   </div>
+
+  </Body>
   </Html>
 );
 
