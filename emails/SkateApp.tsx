@@ -294,6 +294,66 @@ export const SkateAppEmail = () => (
           </span>
         </div>
       </div>
+
+      <div
+        style={{
+          width: "634px",
+          height: "32px",
+          position: "absolute",
+          top: "1142px",
+          left: "51px",
+          gap: "33px",
+          borderColor: "black",
+        }}
+      >
+        <div
+          style={{
+            width: "158px",
+            height: "24px",
+            transform: "rotate(0deg)",
+            fontFamily: "Roboto, sans-serif",
+            fontWeight: 700,
+            fontSize: "12px",
+            lineHeight: "24px",
+            letterSpacing: "2%",
+            whiteSpace: "nowrap",
+            alignItems: "center",
+            display: "flex",
+          }}
+        >
+          <span style={{ display: "block", marginTop: "5px" }}>
+            <span style={{ color: "#EC535B" }}> FOLLOW MYCOLLEGELEASE</span>
+          </span>
+        </div>
+
+        <div
+          style={{
+            //comeback
+            width: "16px",
+            transform: "rotate(90deg)",
+            borderLeft: "1px solid #D3D1D1",
+            position: "absolute",
+            marginLeft: "10px",
+          }}
+        ></div>
+
+        <div
+          style={{
+            width: "172px",
+            height: "24px",
+            transform: "rotate(0deg)",
+            fontFamily: "Roboto, sarif-sans",
+            fontWeight: 700,
+            fontSize: "12px",
+            lineHeight: "24px",
+            letterSpacing: "2%",
+          }}
+        >
+          <span style={{ display: "block", marginTop: "5px" }}>
+            <span style={{ color: "#EC535B" }}> VISIT MYCOLLEGELEASE.COM</span>
+          </span>
+        </div>
+      </div>
     </Body>
   </Html>
 );
