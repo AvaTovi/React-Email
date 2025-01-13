@@ -297,19 +297,24 @@ export const SkateAppEmail = () => (
 
       <div
         style={{
+          //frame
           width: "634px",
           height: "32px",
           position: "absolute",
           top: "1142px",
           left: "51px",
-          gap: "33px",
-          borderColor: "black",
+          gap: "10px",
+          display: "flex",
+          alignItems: "center",
+          flexWrap: "wrap",
         }}
       >
         <div
           style={{
-            width: "158px",
+            flex: "1 1 172px",
             height: "24px",
+            padding: "4px",
+            gap: "10px",
             transform: "rotate(0deg)",
             fontFamily: "Roboto, sans-serif",
             fontWeight: 700,
@@ -317,8 +322,6 @@ export const SkateAppEmail = () => (
             lineHeight: "24px",
             letterSpacing: "2%",
             whiteSpace: "nowrap",
-            alignItems: "center",
-            display: "flex",
           }}
         >
           <span style={{ display: "block", marginTop: "5px" }}>
@@ -328,30 +331,103 @@ export const SkateAppEmail = () => (
 
         <div
           style={{
-            //comeback
-            width: "16px",
-            transform: "rotate(90deg)",
-            borderLeft: "1px solid #D3D1D1",
-            position: "absolute",
-            marginLeft: "10px",
+            width: "1px",
+            height: "24px",
+            backgroundColor: "#D3D1D1",
           }}
         ></div>
 
         <div
           style={{
-            width: "172px",
+            flex: "1 1 172px",
             height: "24px",
-            transform: "rotate(0deg)",
-            fontFamily: "Roboto, sarif-sans",
+            padding: "4px",
+            fontFamily: "Roboto, sans-serif",
             fontWeight: 700,
             fontSize: "12px",
             lineHeight: "24px",
             letterSpacing: "2%",
+            whiteSpace: "nowrap",
           }}
         >
           <span style={{ display: "block", marginTop: "5px" }}>
             <span style={{ color: "#EC535B" }}> VISIT MYCOLLEGELEASE.COM</span>
           </span>
+        </div>
+
+        <div
+          style={{
+            width: "1px",
+            height: "24px",
+            backgroundColor: "#D3D1D1",
+          }}
+        ></div>
+
+        <div
+          style={{
+            flex: "1 1 93px",
+            height: "24px",
+            padding: "4px",
+            fontFamily: "Roboto, sans-serif",
+            fontWeight: 700,
+            fontSize: "12px",
+            lineHeight: "24px",
+            letterSpacing: "2%",
+            whiteSpace: "nowrap",
+          }}
+        >
+          <span style={{ display: "block", marginTop: "5px" }}>
+            <span style={{ color: "#EC535B" }}> VISIT OUR BLOG</span>
+          </span>
+        </div>
+
+        <div
+          style={{
+            width: "1px",
+            height: "24px",
+            backgroundColor: "#D3D1D1",
+          }}
+        ></div>
+
+        <div
+          style={{
+            flex: "1 1 83px",
+            height: "24px",
+            fontFamily: "Roboto, sans-serif",
+            fontWeight: 700,
+            fontSize: "12px",
+            lineHeight: "24px",
+            letterSpacing: "2%",
+            whiteSpace: "nowrap",
+          }}
+        >
+          <span style={{ display: "block", marginTop: "5px" }}>
+            <span style={{ color: "#EC535B" }}> UNSUBSCRIBE</span>
+          </span>
+        </div>
+
+        <div
+          //frame
+          style={{
+            width: "488px",
+            height: "26px",
+            gap: "10px",
+          }}
+        >
+          <div
+            style={{
+              width: "106px",
+              height: "24px",
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: 100,
+              fontSize: "14px",
+              lineHeight: "24px",
+              alignContent: "center",
+              whiteSpace: "nowrap",
+            }}
+          >
+            Spread the word!
+          </div>
         </div>
       </div>
     </Body>
