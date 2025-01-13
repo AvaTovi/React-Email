@@ -417,7 +417,7 @@ export const SkateAppEmail = () => (
               fontSize: "14px",
               lineHeight: "24px",
               whiteSpace: "nowrap",
-              //display: "flex",
+              display: "flex",
               justifyContent: "center",
               alignItems: "center",
             }}
@@ -432,7 +432,7 @@ export const SkateAppEmail = () => (
               gap: "16px",
               flex: "1 1 92px",
               height: "20px",
-              //display: "flex",
+              display: "flex",
               alignItems: "center",
               justifyContent: "center",
             }}
@@ -474,6 +474,24 @@ export const SkateAppEmail = () => (
           </div>
         </div>
       </div>
+
+      <div
+        style={{
+          width: "736px",
+          height: "38px",
+          top: "1357px",
+          left: "736px",
+          bottom: "0",
+          transform: "rotate(-180deg)",
+          borderTopLeftRadius: "24px",
+          borderTopRightRadius: "24px",
+          backgroundColor: "black",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          border: "2px solid black",
+        }}
+      ></div>
     </Body>
   </Html>
 );
