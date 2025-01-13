@@ -406,74 +406,72 @@ export const SkateAppEmail = () => (
           </span>
         </div>
 
-        <div
-          style={{
-            flex: "1 1 106px",
-            height: "58px",
-            padding: "4px",
-            fontFamily: "Roboto, sans-serif",
-            fontWeight: 400,
-            fontSize: "14px",
-            lineHeight: "24px",
-            whiteSpace: "nowrap",
-            alignContent: "center",
-            display: "flex",
-            justifyContent: "center",
-          }}
-        >
-          <span style={{ display: "block", marginTop: "25px" }}>
-            Spread the word!
-          </span>
-        </div>
+        <div>
+          <div
+            style={{
+              flex: "1 1 106px",
+              height: "58px",
+              padding: "4px",
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: 400,
+              fontSize: "14px",
+              lineHeight: "24px",
+              whiteSpace: "nowrap",
+              //display: "flex",
+              justifyContent: "center",
+              alignItems: "center",
+            }}
+          >
+            <span style={{ display: "block", marginTop: "25px" }}>
+              Spread the word!
+            </span>
+          </div>
 
-        <div
-          style={{
-            position: "absolute",
-            width: "92px",
-            height: "20px",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center", // Center the items vertically
-            gap: "16px", // Add gap between the logos
-            bottom: "0", // Ensure it's at the bottom of the frame
-            left: "50%",
-            transform: "translateX(-50%)",
-          }}
-        >
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" // Facebook logo
-            alt="Facebook Logo"
+          <div
             style={{
-              width: "16px",
-              height: "16px",
-              top: "3.91px",
-              left: "5.9px",
-              color: "#FFFFFF",
+              gap: "16px",
+              flex: "1 1 92px",
+              height: "20px",
+              //display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
             }}
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_X_logo.svg"
-            alt="Twitter X Logo"
-            style={{
-              width: "16px",
-              height: "16px",
-              top: "4.91px",
-              left: "4.41px",
-              color: "#FFFFFF",
-            }}
-          />
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
-            alt="Instagram Logo"
-            style={{
-              width: "16px",
-              height: "16px",
-              top: "5px",
-              left: "5px",
-              border: "2px",
-              color: "#FFFFFF",
-            }}
-          />
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" // Facebook logo
+              alt="Facebook Logo"
+              style={{
+                width: "16px",
+                height: "16px",
+                top: "3.91px",
+                left: "5.9px",
+                color: "#FFFFFF",
+              }}
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_X_logo.svg"
+              alt="Twitter X Logo"
+              style={{
+                width: "16px",
+                height: "16px",
+                top: "4.91px",
+                left: "4.41px",
+                color: "#FFFFFF",
+              }}
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png"
+              alt="Instagram Logo"
+              style={{
+                width: "16px",
+                height: "16px",
+                top: "5px",
+                left: "5px",
+                border: "2px",
+                color: "#FFFFFF",
+              }}
+            />
+          </div>
         </div>
       </div>
     </Body>
