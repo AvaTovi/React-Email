@@ -307,6 +307,7 @@ export const SkateAppEmail = () => (
           display: "flex",
           alignItems: "center",
           flexWrap: "wrap",
+          border: "2px solid black",
         }}
       >
         <div
@@ -406,20 +407,33 @@ export const SkateAppEmail = () => (
           </span>
         </div>
 
-        <div>
+        <div
+          style={{
+            border: "2px solid black",
+            width: "488px",
+            height: "58px",
+            gap: "12px",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: "column",
+          }}
+        >
           <div
             style={{
-              flex: "1 1 106px",
+              border: "2px solid black",
+              width: "106px",
               height: "58px",
               padding: "4px",
               fontFamily: "Roboto, sans-serif",
               fontWeight: 400,
               fontSize: "14px",
               lineHeight: "24px",
-              whiteSpace: "nowrap",
-              display: "flex",
               justifyContent: "center",
               alignItems: "center",
+              whiteSpace: "nowrap",
+              display: "flex",
+              textAlign: "center",
             }}
           >
             <span style={{ display: "block", marginTop: "25px" }}>
@@ -430,11 +444,11 @@ export const SkateAppEmail = () => (
           <div
             style={{
               gap: "16px",
-              flex: "1 1 92px",
+              width: "92px",
               height: "20px",
-              display: "flex",
-              alignItems: "center",
               justifyContent: "center",
+              alignItems: "center",
+              display: "flex",
             }}
           >
             <img
@@ -477,21 +491,28 @@ export const SkateAppEmail = () => (
 
       <div
         style={{
-          width: "736px",
-          height: "38px",
-          top: "1357px",
-          left: "736px",
+          position: "absolute",
           bottom: "0",
-          transform: "rotate(-180deg)",
-          borderTopLeftRadius: "24px",
-          borderTopRightRadius: "24px",
-          backgroundColor: "black",
-          display: "flex",
-          alignItems: "center",
-          justifyContent: "center",
-          border: "2px solid black",
+          top: "1320px",
+          width: "100%",
+          height: "auto",
         }}
-      ></div>
+      >
+        <div
+          style={{
+            width: "736px", // The width of the inner div
+            height: "38px", // The height of the inner div
+            transform: "rotate(-180deg)", // Optional: Rotates the inner div
+            borderTopLeftRadius: "24px", // Border radius for top left corner
+            borderTopRightRadius: "24px", // Border radius for top right corner
+            backgroundColor: "black", // Background color
+            display: "flex", // Flexbox for centering content
+            alignItems: "center", // Vertically center content
+            justifyContent: "center", // Horizontally center content
+            border: "2px solid black", // Border for inner div
+          }}
+        ></div>
+      </div>
     </Body>
   </Html>
 );
