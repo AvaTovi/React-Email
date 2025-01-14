@@ -465,7 +465,7 @@ export const SkateAppEmail = () => (
               }}
             />
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/6/60/Twitter_X_logo.svg"
+              src="https://cdn.prod.website-files.com/5d66bdc65e51a0d114d15891/64cebdd90aef8ef8c749e848_X-EverythingApp-Logo-Twitter.jpg"
               alt="Twitter X Logo"
               style={{
                 width: "16px",
