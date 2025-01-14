@@ -307,7 +307,6 @@ export const SkateAppEmail = () => (
           display: "flex",
           alignItems: "center",
           flexWrap: "wrap",
-          border: "2px solid black",
         }}
       >
         <div
@@ -409,21 +408,23 @@ export const SkateAppEmail = () => (
 
         <div
           style={{
-            border: "2px solid black",
-            width: "488px",
-            height: "58px",
+            //frame
+            width: "100%",
+            height: "110px",
             gap: "12px",
+            left: "100%",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
+            textAlign: "center",
             flexDirection: "column",
           }}
         >
           <div
             style={{
-              border: "2px solid black",
+              //text
               width: "106px",
-              height: "58px",
+              height: "24px",
               padding: "4px",
               fontFamily: "Roboto, sans-serif",
               fontWeight: 400,
@@ -433,7 +434,7 @@ export const SkateAppEmail = () => (
               alignItems: "center",
               whiteSpace: "nowrap",
               display: "flex",
-              textAlign: "center",
+              color: "#343131",
             }}
           >
             <span style={{ display: "block", marginTop: "25px" }}>
@@ -443,6 +444,7 @@ export const SkateAppEmail = () => (
 
           <div
             style={{
+              //img
               gap: "16px",
               width: "92px",
               height: "20px",
@@ -493,23 +495,23 @@ export const SkateAppEmail = () => (
         style={{
           position: "absolute",
           bottom: "0",
-          top: "1320px",
+          top: "1357px",
           width: "100%",
           height: "auto",
         }}
       >
         <div
           style={{
-            width: "736px", // The width of the inner div
-            height: "38px", // The height of the inner div
-            transform: "rotate(-180deg)", // Optional: Rotates the inner div
-            borderTopLeftRadius: "24px", // Border radius for top left corner
-            borderTopRightRadius: "24px", // Border radius for top right corner
-            backgroundColor: "black", // Background color
-            display: "flex", // Flexbox for centering content
-            alignItems: "center", // Vertically center content
-            justifyContent: "center", // Horizontally center content
-            border: "2px solid black", // Border for inner div
+            width: "736px",
+            height: "38px",
+            transform: "rotate(-180deg)",
+            borderTopLeftRadius: "24px",
+            borderTopRightRadius: "24px",
+            backgroundColor: "black",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            border: "2px solid black",
           }}
         ></div>
       </div>
