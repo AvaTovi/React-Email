@@ -23,6 +23,7 @@ export const SkateAppEmail = () => (
           alignItems: "center",
           justifyContent: "center",
           border: "2px solid black",
+          boxSizing: "border-box",
         }}
       >
         <h1
@@ -37,6 +38,7 @@ export const SkateAppEmail = () => (
             fontWeight: 600,
             fontSize: "14px",
             lineHeight: "24px",
+            textAlign: "center",
             whiteSpace: "nowrap",
           }}
         >
@@ -50,11 +52,33 @@ export const SkateAppEmail = () => (
           width: "736px",
           height: "640px",
           top: "38px",
-          //transform: "translate(-50%, -50%)",
-          position: "flex",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
           backgroundColor: "#FF5A60",
         }}
-      ></div>
+      >
+        <div
+          style={{
+            width: "93px",
+            height: "240px",
+            top: "149px",
+            left: "322px",
+            transform: "rotate(0deg)",
+            fontFamily: "Roboto, sans-serif",
+            fontWeight: 700,
+            fontSize: "12px",
+            lineHeight: "24px",
+            letterSpacing: "2%",
+            alignItems: "center",
+            textAlign: "center",
+            whiteSpace: "nowrap",
+            color: "#FFFFFF",
+          }}
+        >
+          ARE YOU READY
+        </div>
+      </div>
     </Body>
   </Html>
 );
