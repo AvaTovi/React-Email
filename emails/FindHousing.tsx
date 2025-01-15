@@ -53,13 +53,16 @@ export const SkateAppEmail = () => (
           height: "640px",
           top: "38px",
           display: "flex",
+          position: "relative",
           justifyContent: "center",
           alignItems: "center",
+          flexDirection: "column",
           backgroundColor: "#FF5A60",
         }}
       >
         <div
           style={{
+            //ARE YOU READY section
             width: "93px",
             height: "240px",
             top: "149px",
@@ -77,6 +80,28 @@ export const SkateAppEmail = () => (
           }}
         >
           ARE YOU READY
+        </div>
+
+        <div
+          style={{
+            width: "510.63px",
+            height: "132px",
+            top: "235px",
+            left: "113px",
+            fontFamily: "Roboto, sans-serif",
+            fontWeight: 700,
+            fontSize: "48.63px",
+            lineHeight: "66px",
+            textAlign: "center",
+            position: "absolute",
+            //alignItems: "center",
+            //display: "flex",
+            //justifyContent: "center",
+            color: "#FFFFFF",
+            border: "2px solid black",
+          }}
+        >
+          FIND HOUSING NEAR YOUR CAMPUS
         </div>
       </div>
     </Body>
