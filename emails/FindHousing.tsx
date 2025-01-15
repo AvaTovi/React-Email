@@ -129,6 +129,39 @@ export const SkateAppEmail = () => (
             <br /> rent apartments near their campus without the hassle.
           </div>
         </div>
+
+        <div
+          style={{
+            //Text frame
+            width: "620.07px",
+            height: "66px",
+            top: "726px",
+            left: "58px",
+            gap: "12.38px",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "flex-start",
+            border: "2px solid black",
+          }}
+        >
+          <div
+            style={{
+              //DISCOVER Section
+              width: "256.08px",
+              height: "66px",
+              transform: "rotate(0deg)",
+              fontFamily: "Gilroy, sans-serif",
+              fontWeight: 800,
+              fontSize: "51.78px",
+              lineHeight: "65.77px",
+              textAlign: "center",
+              justifyContent: "center",
+              color: "#515558",
+            }}
+          >
+            DISCOVER
+          </div>
+        </div>
       </div>
     </Body>
   </Html>
