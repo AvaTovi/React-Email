@@ -1,6 +1,6 @@
 import { Body, Head, Html, Img, Link, Text } from "@react-email/components";
 import * as React from "react";
-//import React from "react";
+//import Cloud from "./images/21.png";
 
 export const SkateAppEmail = () => (
   <Html>
@@ -161,6 +161,29 @@ export const SkateAppEmail = () => (
           >
             DISCOVER
           </div>
+        </div>
+
+        <div
+          style={{
+            width: "554px",
+            height: "84px",
+            top: "816px",
+            left: "91px",
+            fontFamily: "Roboto, sans-serif",
+            fontWeight: 300,
+            fontSize: "18px",
+            lineHeight: "28px",
+            textAlign: "center",
+            alignItems: "center",
+            justifyContent: "center",
+            display: "flex",
+            position: "absolute",
+            color: "#545558",
+          }}
+        >
+          Good vibes spark good ideas. Mycollegeease through dozens of campus
+          partners in North Carolina offers almost all students' needs to
+          finding housing around campus.
         </div>
       </div>
     </Body>
