@@ -141,6 +141,7 @@ export const SkateAppEmail = () => (
             display: "flex",
             alignItems: "center",
             justifyContent: "flex-start",
+            position: "absolute",
             border: "2px solid black",
           }}
         >
@@ -165,6 +166,7 @@ export const SkateAppEmail = () => (
 
         <div
           style={{
+            //long text section
             width: "554px",
             height: "84px",
             top: "816px",
@@ -184,6 +186,80 @@ export const SkateAppEmail = () => (
           Good vibes spark good ideas. Mycollegeease through dozens of campus
           partners in North Carolina offers almost all students' needs to
           finding housing around campus.
+        </div>
+
+        <div
+          style={{
+            //frame
+            width: "543px",
+            height: "238px",
+            top: "932px",
+            left: "97px",
+            gap: "32px",
+            position: "absolute",
+            justifyContent: "center",
+            border: "2px solid black",
+          }}
+        >
+          <div
+            style={{
+              width: "543px",
+              height: "24px",
+              transform: "rotate(0deg)",
+              fontFamily: "Roboto, sans-serif",
+              fontWeight: 700,
+              fontSize: "18px",
+              lineHeight: "24px",
+              letterSpacing: "2%",
+              alignItems: "center",
+              justifyContent: "center",
+              display: "flex",
+              color: "#515558",
+            }}
+          >
+            Our Features
+          </div>
+
+          <div
+            style={{
+              //nested parent
+              width: "543px",
+              height: "70px",
+              gap: "42px",
+              border: "2px solid black",
+            }}
+          >
+            <div
+              //Lease Property section
+              style={{
+                width: "250px",
+                height: "28px",
+                transform: "rotate(0deg)",
+                fontFamily: "Roboto, sans-serif",
+                fontWeight: 800,
+                fontSize: "18px",
+                lineHeight: "28px",
+                color: "#515558",
+              }}
+            >
+              Lease Property
+            </div>
+            <div
+              style={{
+                width: "250px",
+                height: "34px",
+                fontFamily: "Roboto, sans-serif",
+                fontWeight: 400,
+                fontSize: "12px",
+                lineHeight: "17.16px",
+                letterSpacing: "0.1px",
+                color: "#545558",
+              }}
+            >
+              Lorem ipsum dolor sit amet, consectetur elit. Vivamus in velit
+              interdum, facilisis lectus quis.
+            </div>
+          </div>
         </div>
       </div>
     </Body>
