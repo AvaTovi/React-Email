@@ -13,7 +13,9 @@ export const SkateAppEmail = () => (
     <Body>
       <div
         style={{
-          width: "736px", height: "2856px", top: "3391px", left: "6336px", borderRadius: "24px",
+          width: "736px",
+          height: "2856px",
+          top: "3391px", left: "6336px", borderRadius: "24px",
         }}
       >
         <div
@@ -151,20 +153,7 @@ export const SkateAppEmail = () => (
               interdum, facilisis lectus quis.
             </div>
             </div>
-            <div
-            //top right frame
-            style={{
-                width: '250px', height: '70px', gap: '8px', right: 0, display: 'flex', border: '2px solid red',
-            }}
-            >
-                <div
-                style={{
-                    width: '250px', height: '28px', transform: 'rotate(odeg)', fontFamily: 'Roboto, sans-serif', fontWeight: 800, fontSize: '18px', lineHeight: '28px', color: '#515558',
-                }}
-                >
-                    Shared Room
-                </div>
-            </div>
+            
           </div>
         </div>
       </div>

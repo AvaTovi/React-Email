@@ -159,7 +159,7 @@ export const SkateAppEmail = () => (
             >
                 <div
                 style={{
-                    width: '250px', height: '28px', transform: 'rotate(odeg)', fontFamily: 'Roboto, sans-serif', fontWeight: 800, fontSize: '18px', lineHeight: '28px', color: '#515558',
+                    width: '250px', height: '28px', transform: 'rotate(odeg)', fontFamily: 'Roboto, sans-serif', fontWeight: 800, 
                 }}
                 >
                     Shared Room

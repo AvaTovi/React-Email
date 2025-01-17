@@ -13,19 +13,33 @@ export const SkateAppEmail = () => (
     <Body>
       <div
         style={{
-          width: "736px", height: "2856px", top: "3391px", left: "6336px", borderRadius: "24px",
+          width: "736px",
+          height: "2856px",
+          top: "3391px",
+          left: "6336px",
+          borderRadius: "24px",
         }}
       >
         <div
           //Reset password class
           style={{
-            width: "736px", height: "38px", borderTopLeftRadius: "24px", borderTopRightRadius: "24px", backgroundColor: "black", display: "flex", alignItems: "center",
-             justifyContent: "center", border: "2px solid black", boxSizing: "border-box",
+            width: "736px",
+            height: "38px",
+            borderTopLeftRadius: "24px",
+            borderTopRightRadius: "24px",
+            backgroundColor: "black",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            border: "2px solid black",
+            boxSizing: "border-box",
           }}
         >
           <h1
             style={{
-              width: "134px", height: "24px", borderTop: "7px", borderLeft: "301px", transform: "rotate(0deg)", color: "#FFFFFF", fontFamily: "Roboto, sans-serif",
+              width: "134px",
+              height: "24px",
+              borderTop: "7px", borderLeft: "301px", transform: "rotate(0deg)", color: "#FFFFFF", fontFamily: "Roboto, sans-serif",
               fontWeight: 600, fontSize: "14px", lineHeight: "24px", textAlign: "center", whiteSpace: "nowrap",
             }}
           >
@@ -151,20 +165,7 @@ export const SkateAppEmail = () => (
               interdum, facilisis lectus quis.
             </div>
             </div>
-            <div
-            //top right frame
-            style={{
-                width: '250px', height: '70px', gap: '8px', right: 0, display: 'flex', border: '2px solid red',
-            }}
-            >
-                <div
-                style={{
-                    width: '250px', height: '28px', transform: 'rotate(odeg)', fontFamily: 'Roboto, sans-serif', fontWeight: 800, fontSize: '18px', lineHeight: '28px', color: '#515558',
-                }}
-                >
-                    Shared Room
-                </div>
-            </div>
+            
           </div>
         </div>
       </div>
