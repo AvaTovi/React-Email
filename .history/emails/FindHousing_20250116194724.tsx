@@ -154,13 +154,13 @@ export const SkateAppEmail = () => (
             <div
             //top right frame
             style={{
-                width: '250px', height: '70px', gap: '8px', right: 0, display: 'flex', position: 'relative', flexDirection: 'column', border: '2px solid red',
+                width: '250px', height: '70px', gap: '8px', right: 0, display: 'flex', border: '2px solid red',
             }}
             >
                 <div
                 //shared room section
                 style={{
-                    width: '250px', height: '28px', transform: 'rotate(0deg)', fontFamily: 'Roboto, sans-serif', fontWeight: 800, fontSize: '18px', lineHeight: '28px', whiteSpace: "nowrap", color: '#515558',
+                    width: '250px', height: '28px', transform: 'rotate(odeg)', fontFamily: 'Roboto, sans-serif', fontWeight: 800, fontSize: '18px', lineHeight: '28px', whiteSpace: "nowrap", color: '#515558',
                 }}
                 >
                     Shared Room
@@ -168,7 +168,7 @@ export const SkateAppEmail = () => (
                 <div
                 //long text section
                 style={{
-                    width: '250px', height: '34px', fontFamily: 'Roboto, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: '17.16px', letterSpacing: '0.1px', bottom: 0, position: 'absolute', color: '#545558',
+                    width: '250px', height: '34px', fontFamily: 'Roboto, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: '17.16px', letterSpacing: '0.1px', bottom: '10, position: 'absolute', color: '#545558',
                 }}
                 >
                 Lorem ipsum dolor sit amet, consectetur elit.

@@ -168,7 +168,7 @@ export const SkateAppEmail = () => (
                 <div
                 //long text section
                 style={{
-                    width: '250px', height: '34px', fontFamily: 'Roboto, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: '17.16px', letterSpacing: '0.1px', bottom: 0, position: 'absolute', color: '#545558',
+                    width: '250px', height: '34px', fontFamily: 'Roboto, sans-serif', fontWeight: 400, fontSize: '12px', lineHeight: '17.16px', letterSpacing: '0.1px', bposition: 'absolute', color: '#545558',
                 }}
                 >
                 Lorem ipsum dolor sit amet, consectetur elit.
